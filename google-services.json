@@ -1,0 +1,29 @@
+ {
+  "project_info": {
+    "project_number": "15590169049",
+    "project_id": "lakasdekowebshop",
+    "storage_bucket": "lakasdekowebshop.firebasestorage.app"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:15590169049:android:9981e0c71cd7208223a1c8",
+        "android_client_info": {
+          "package_name": "com.example.webshop"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDoZA7s-lKr63ZCSO7E28Pht5UPa6-1PXU"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
