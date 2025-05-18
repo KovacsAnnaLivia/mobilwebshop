@@ -1,0 +1,90 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:background="#F6F4F8"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:padding="24dp">
+
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/toolbar"
+        android:layout_width="392dp"
+        android:layout_height="wrap_content"
+        android:background="?attr/colorPrimary"
+        android:title="Lakásdekor webshop"
+        android:titleTextColor="@android:color/white" />
+
+    <TextView
+        android:layout_width="80dp"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="16dp"
+        android:text="Szia!"
+        android:textColor="#000000"
+        android:textSize="25sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="464dp"
+        android:layout_marginBottom="24dp"
+        android:background="@android:color/white"
+        android:elevation="2dp"
+        android:gravity="center_vertical"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <!--
+                <LinearLayout
+                    android:layout_width="325dp"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/nameText"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:textColor="#000000"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/emailText"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:drawableStart="@android:drawable/ic_dialog_email"
+                android:drawablePadding="8dp"
+                android:textColor="#555555" />
+
+        </LinearLayout>
+        -->
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="16dp"
+            android:text="Köszöntelek az oldalomon. Ez egy Lakásdekor webshop alkalmazás, ami a Mobil alkalmazásfejlesztés tantárgyhoz készült. Ajándékba itt egy aranyos kacsás váza, ami forog. Mert miért is ne:"
+            android:textColor="#000000"
+            android:textSize="18sp" />
+
+        <ImageView
+            android:id="@+id/profileImage"
+            android:layout_width="wrap_content"
+            android:layout_height="250dp"
+            android:layout_marginTop="16dp"
+            android:src="@drawable/duck" />
+    </LinearLayout>
+
+
+
+    <Button
+        android:id="@+id/homeButton"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Kezdő oldal"
+        android:textColor="#FFFFFF"
+        android:backgroundTint="#D3AC8A"
+        android:drawableStart="@android:drawable/ic_menu_compass"
+        android:drawablePadding="8dp" />
+
+</LinearLayout>
